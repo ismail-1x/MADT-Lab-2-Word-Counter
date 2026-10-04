@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/enter_text" />
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/input_hint"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp" />
+
+    <TextView
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/select_metric" />
+
+    <Spinner
+        android:id="@+id/spinnerMetric"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCount"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="362dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/count_button" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/result_default"
+        android:textSize="20sp" />
+
+</LinearLayout>

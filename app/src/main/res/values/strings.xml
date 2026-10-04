@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">My Word Calculation</string>
+
+    <string name="title">My Word Calculator v.1</string>
+
+    <string name="enter_text">Enter text here please:</string>
+
+    <string name="input_hint">Your input</string>
+
+    <string name="select_metric">Select metric:</string>
+
+    <string name="count_button">Start counting...</string>
+
+    <string name="result_default">Results are 🥁🥁:</string>
+
+    <string name="result_format">Result: %1$d</string>
+
+    <string name="empty_warning">Please enter some text.</string>
+
+    <string-array name="metric_options">
+        <item>Sentences</item>
+        <item>Words</item>
+        <item>Characters</item>
+        <item>Numbers</item>
+    </string-array>
+
+</resources>
