@@ -18,7 +18,7 @@ When the button is clicked:
     Get the text.
 
     If there is no text:
-        Show Toast.
+        Show nothing.
         Stop.
 
     Find out what the user selected.
